@@ -17,21 +17,44 @@ hr {
 .tag-status {
   border-radius: 4px;
   padding: 4px 12px;
-  margin-left: 8px;
+  margin-left: 1rem;
   font-weight: 400;
   font-size: 18px;
 }
 
 .tag-doing {
-  border: #1795d1 2px solid;
+  border: #1795d1 1px solid;
   color: #1795d1;
 }
 
 .tag-done {
-  border: #1d951f 2px solid;
+  border: #1d951f 1px solid;
   color: #1d951f;
+}
+
+.tile {
+  padding: 1rem 0;
+}
+
+.tile h4 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
 }
 
 .tile p {
   color: gray;
+}
+
+.app_logo {
+  margin-bottom: 1rem;
+}
+
+.app_name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.app_name span {
+  color: #1795d1;
 }
