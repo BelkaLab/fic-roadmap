@@ -1,33 +1,37 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
 hr {
-	margin: 3em 0;
+  margin: 3em 0;
 }
 
 .jumbotron {
-	margin-bottom: 4em;
+  margin-bottom: 4em;
 }
 
-.jumbotron h1{
-	color: #1795d1;
+.jumbotron h1 {
+  color: #1795d1;
 }
 
 .tag-status {
-	border-radius: 4px;
-	padding: 4px 12px;
-	margin-left: 8px;
-	font-weight: 400;
-	font-size: 18px;
+  border-radius: 4px;
+  padding: 4px 12px;
+  margin-left: 8px;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .tag-doing {
-	border: #1795d1 2px solid;
-	color: #1795d1;
+  border: #1795d1 2px solid;
+  color: #1795d1;
 }
 
 .tag-done {
-	border: #1d951f 2px solid;
-	color: #1d951f;
+  border: #1d951f 2px solid;
+  color: #1d951f;
 }
 
 .tile p {
-	color: gray;
+  color: gray;
 }
